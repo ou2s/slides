@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render BILAlert 1`] = `
+<ReactNativeModal
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "rgba(0, 0, 0, 0.1)",
+        "borderRadius": 4,
+        "padding": 22,
+      }
+    }
+  >
+    <YesNo
+      highlightYes={true}
+      no={null}
+      onPress={[Function]}
+      yes="common.ok"
+    />
+  </View>
+</ReactNativeModal>
+`;
